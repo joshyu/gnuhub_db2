@@ -1,11 +1,11 @@
 default:	rpm libstdc++ libaio sh
 
 rpm:
-	sudo apt-get install rpm
+	sudo apt-get -y install rpm
 libstdc++:
-	sudo apt-get install libstdc++5 libstdc++6
+	sudo apt-get -y install libstdc++5 libstdc++6
 libaio:
-	sudo apt-get install libaio1
+	sudo apt-get -y install libaio1
 sh:
 	sudo cp -f fixDB.sh /usr/local/bin/
 	sudo chmod +x /usr/local/bin/fixDB.sh

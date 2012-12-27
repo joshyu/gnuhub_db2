@@ -14,7 +14,7 @@ make db2
 
 ip:db2.gnuhub.com  
 用户名:英文名(查看db2expc10.1_64.rsp文件)  
-密码:gnuhub  
+初始密码:gnuhub(登录后自行修改密码)  
 
 ## 1:修正数据库   
 #### fixDB.sh initDB.sh已经放入bin目录中，可以直接使用  

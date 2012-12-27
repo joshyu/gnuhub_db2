@@ -3,7 +3,7 @@ default:	rpm libstdc++ libaio sh
 rpm:
 	sudo apt-get -y install rpm
 libstdc++:
-	sudo apt-get -y install libstdc++5 libstdc++6
+	sudo apt-get -y install libstdc++6
 libaio:
 	sudo apt-get -y install libaio1
 sh:
